@@ -1,5 +1,13 @@
 [[package]]
 category = "main"
+description = "A package to test packaging with"
+name = "blahblahblahblah3"
+optional = false
+python-versions = "*"
+version = "13.13.13"
+
+[[package]]
+category = "main"
 description = "Photometry for Kepler Full Frame Images"
 name = "f3"
 optional = false
@@ -29,10 +37,13 @@ python-versions = ">=3.6"
 version = "1.19.4"
 
 [metadata]
-content-hash = "ac002d9d55c252a65f459e6ad57524711cbc8d8909de582d3b867cb4ff948aa6"
+content-hash = "41f1bfafa1646df4aa445f7d17e26018bf32e1b9f40f51de61cab02d679e98c8"
 python-versions = "^3.8"
 
 [metadata.files]
+blahblahblahblah3 = [
+    {file = "blahblahblahblah3-13.13.13.tar.gz", hash = "sha256:673763d1cb12caffb29d50f24c2480457e1917a79168e371a3ada7b1403304b5"},
+]
 f3 = [
     {file = "f3-1.0.4.tar.gz", hash = "sha256:13a462a6009e86a4a2a8dbfa03453af35f08dc880734b97be845e7eb62a73a22"},
 ]
